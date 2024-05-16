@@ -1,4 +1,35 @@
+
+.menu {
+    display: flex;
+    background-color: #A69C8F;
+    height: 50px;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.home {
+    flex: 0.5;
+    margin-left: 50px;
+}
+
+.coursecontent {
+    flex: 0.5;
+}
+
+.psacourse {
+    flex: 0.5;
+}
+
 #Goalstatement {
     text-align: center;
     text-decoration:underline;
+}
+
+#GoToCourse {
+    background-color: #FAC984;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    font-weight: bold;
+    text-decoration: underline;
 }
