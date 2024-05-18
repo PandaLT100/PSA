@@ -1,3 +1,91 @@
 h1 {
     text-align: center;
 }
+
+.menu {
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #A69C8F;
+    height: 50px;
+    align-items: center;
+    padding-top: 70px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    border: solid black;
+    padding: 8px;
+    border-width: 2px;
+    cursor: pointer;         
+}
+
+.home {
+    flex: 0.5;
+    margin-left: 50px;
+}
+
+.coursecontent {
+    flex: 0.5;
+}
+
+.psacourse {
+    flex: 0.5;
+}
+
+.coursecontainer {
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    width: 100px;
+}
+
+.lessonmenu {
+    background-color:#faad8c;
+    text-align:center;
+    font-weight: bold;
+    border: solid black;
+    cursor:wait;
+}
+
+.lessonlink {
+    background-color: #E5ECEA;
+    border: solid black;
+    border-top: none;
+    cursor: pointer;
+}
+
+.thelesson {
+    background-color: #faad8c;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    height: 40px;
+    width: 50x; 
+    text-align:center;
+    font-weight: bold;
+    font-size: x-large;
+    border: solid black;
+    border-bottom: none;
+    border-width: 10px;
+}
+
+.lessoncontent {
+    background-color:whitesmoke;
+    height: 500px;
+    min-width: 300px;
+    border: solid black;
+    border-width: 3px 10px 10px 10px;
+    overflow-y: auto;
+    
+}
+
+#back, #next {
+    background-color: #fac984;
+    margin-left: 50px;
+    margin-right: 60px;
+    font-weight: bold;
+    padding: 9px;
+    border-radius: 30px;
+    cursor: pointer;
+}
