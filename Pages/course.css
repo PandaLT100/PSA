@@ -97,3 +97,9 @@ h3 {
     border-radius: 30px;
     cursor: pointer;
 }
+
+.lessonpdflink {
+    border: none;
+    text-decoration: underline;
+    color: blue;
+}
