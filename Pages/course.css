@@ -21,7 +21,7 @@ a {
 }
 
 .home {
-    flex: 0.5;
+    flex: 0.3;
     margin-left: 50px;
 }
 
@@ -78,6 +78,14 @@ a {
     border-width: 3px 10px 10px 10px;
     overflow-y: auto;
     
+}
+
+li, p {
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 50px;
 }
 
 #back, #next {
