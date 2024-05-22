@@ -40,12 +40,12 @@ h2 {
 }
 
 .home {
-    flex: 0.5;
+    flex: 0.3;
     margin-left: 50px;
 }
 
 .coursecontent {
-    flex: 0.3;
+    flex: 0.5;
 }
 
 .psacourse {
