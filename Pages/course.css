@@ -1,3 +1,4 @@
+
 h1 {
     text-align: center;
 }
@@ -45,14 +46,17 @@ a {
     text-align:center;
     font-weight: bold;
     border: solid black;
+    border-width: 3px 1px 2px 3px;
     cursor:wait;
+    display:flex;
 }
 
 .lessonlink {
     background-color: #E5ECEA;
     border: solid black;
-    border-top: none;
+    border-width: 0px 1px 1px 3px;
     cursor: pointer;
+    display: grid;
 }
 
 .thelesson {
@@ -65,16 +69,12 @@ a {
     text-align:center;
     font-weight: bold;
     font-size: x-large;
-    border: solid black;
-    border-bottom: none;
-    border-width: 10px;
 }
 
 .lessoncontent {
     background-color:whitesmoke;
     height: 500px;
     min-width: 300px;
-    border: solid black;
     border-width: 3px 10px 10px 10px;
     overflow-y: auto;
     
